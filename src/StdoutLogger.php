@@ -1,8 +1,8 @@
 <?php
 
-namespace Foobarology\SampleLib;
+namespace Majoo\Logger;
 
-class StringHelper
+class StdoutLogger
 {
 
     public static function excerpt(string $text, int $words_count, string $suffix = "..."): string

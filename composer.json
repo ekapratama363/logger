@@ -1,12 +1,12 @@
 {
-    "name": "foobarology/sample-lib",
+    "name": "majoo/logger",
     "description": "Sample library published to packagist",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Muhammad Syifa",
-            "email": "emsifa@gmail.com"
+            "name": "Eka Pratama",
+            "email": "ekapratama@majoo.id"
         }
     ],
     "require": {
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Foobarology\\SampleLib\\": "src"
+            "Majoo\\Logger\\": "src"
         }
     },
     "require-dev": {
