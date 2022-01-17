@@ -2,14 +2,14 @@
 
 namespace Majoo\Logger;
 
-class StdoutLogger
+class StderrLogger
 {
 
     public function write(string $message)
     {
-        $stdout = fopen('php://stdout', 'wb');
+        $stderr = fopen('php://stderr', 'wb');
         
-        return fwrite($stdout, $message);
+        return fwrite($stderr, $message);
     }
 
     public function log($request, $response)
